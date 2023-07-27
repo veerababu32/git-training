@@ -1,0 +1,34 @@
+changes in local repository
+then pushing changes to remote
+
+note : make sure u have renamed master branch to main in local repository
+
+git push origin main
+
+now go on github and try to change any file and commit. now u have changes on remote repository but not in local repository. u need to pull the changes
+
+git pull origin main
+
+branches on github
+
+
+
+Collaborator
+
+Create a project : empty folder
+git bash here
+
+git init
+if u have set global username and email then no need to config user for this new repo
+
+git remote add origin https://github.com/kokanevina/WebProject_GitTraining.git
+
+rename master to main : git branch -m main
+
+git pull origin main  (pulling the code from remote to local)
+
+
+do some changes in local. add and commit
+
+git push origin main  (pushing the code from local to remote)
+

@@ -1,0 +1,38 @@
+git revert HEAD/commitcode
+once u execute this command it will open editor to put new commit message
+just close the editor
+
+git log --oneline
+u will see new commit telling about ur revert
+
+
+
+git reset commitcode
+
+repository will get reset to code mentioned in command
+and all above commits get deleted from log and
+
+files go in untracked state from those commits
+
+Developer decided whether to delete the files or to include the file in repo or not
+
+
+create create GitHUb account or login
+create new repostory
+
+on ur local repository enter following command
+git remote add origin https://github.com/kokanevina/WebProject_GitTraining.git
+(use ur own repository link)
+
+confirm it using following command
+git config --get remote.origin.url
+
+
+local repositry branch is master
+remote repositry branch is main
+
+if u want to push the files then we need to rename local repo branch
+git branch -m main
+
+
+

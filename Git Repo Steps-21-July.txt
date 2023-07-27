@@ -1,0 +1,31 @@
+How to resolve merge Conflicts
+
+1. create new branch (e.g. version3.0)
+git branch newbranchname
+git checkout branchname
+do some changes
+stage and commit but do not merge
+
+2. create new branch to fix some error urgent from master (urgentfixissue)
+git branch newbranchname
+git checkout branchname
+do some changes to fix the issue
+stage and commit the changes
+ merge this branch with master
+
+now try merging version3.0 in master
+conflict occur
+resolve the conflict
+stage and commit 
+done
+
+
+to undo the changes from single file before commit use following command
+ git restore index.html
+
+to undo the changes from all changed files before commit use following command
+ git restore .
+
+to undo the changes from staged file
+1. first unstage the file : git restore --staged filname
+2. undo the changes : git restore filname

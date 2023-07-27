@@ -1,0 +1,4 @@
+webProject_git folder
+IN console: git init
+git config --global user.name veerababu
+git config --global user.email veerababu@gmail.com

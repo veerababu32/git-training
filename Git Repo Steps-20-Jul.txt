@@ -1,0 +1,43 @@
+add new file in repositiry
+check status
+stage and commit 
+then check log
+
+ git commit --amend -m "file mystyle.css added and heading styled"
+
+above command replaces current commit with new commit and message
+
+
+master branch, new branch
+need of branch
+how to create a branch
+how to do changes in branch
+how to commit the changes
+how to merge the branch with parent branch
+how to delete nonrequired branches
+
+git branch : it will show all branches of repo
+git branch branchname : to create new branch
+
+u are currently on master branch
+u can checkout to new branch using command
+git checkout branchname
+
+change exisitng files or add new files
+stage and commit the changes
+
+compare both branches
+git checkout childbranch
+git checkout parentbranch
+ 
+u will come to know there are changes in new branch but
+parent branch is not yet changed
+
+to merge child with parent, first checkout to parent
+git checkout parentbranch
+then
+git merge branchnametomerge
+
+if u want to delete nonrequired branch then
+git branch -d brachname
+

@@ -1,0 +1,25 @@
+Create a project : files in folder
+command prompt : path till project folder
+git init
+
+user and email configuration
+git config --global user.name kokaneva
+git config --global user.email kokane.vina@gmail.com
+
+git config --list
+
+ls
+
+git status
+
+git add filename  : u have to repeat it for every file
+
+git add --all : to add all modified files in staging stage
+
+git commit -m "this is first commit on this repository"
+
+git log
+
+do some changes in file using any editor
+
+and follow the steps again from git status
